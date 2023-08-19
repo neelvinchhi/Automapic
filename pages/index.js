@@ -46,7 +46,7 @@ export default function Home() {
   const router = useRouter();
 
   const aboutUsSubmission = () => {
-    router.push('/aboutus')
+    router.push('components/aboutus')
   }
 
   const navHeight = useBreakpointValue({ base: "3rem", md: "4rem" });
